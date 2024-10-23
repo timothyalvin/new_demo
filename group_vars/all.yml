@@ -1,0 +1,5 @@
+timesync_ntp_servers:
+  - hostname: us.pool.ntp.org
+    pool: true
+
+selinux_state: enforcing

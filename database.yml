@@ -1,0 +1,7 @@
+---
+- name: database servers
+  hosts: database
+  roles:
+    - redhat.rhel_system_roles.timesync
+    - redhat.rhel_system_roles.selinux
+    - dbdemo

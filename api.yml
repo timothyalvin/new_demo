@@ -1,0 +1,7 @@
+---
+- name: api servers
+  hosts: api
+  roles:
+    - redhat.rhel_system_roles.timesync
+    - redhat.rhel_system_roles.selinux
+    - webserver

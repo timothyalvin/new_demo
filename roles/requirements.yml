@@ -1,0 +1,3 @@
+- name: dbdemo
+  src: https://github.com/timothyalvin/dbdemo
+  scm: git

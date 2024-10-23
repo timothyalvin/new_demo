@@ -1,0 +1,7 @@
+---
+- name: frontend servers
+  hosts: frontend
+  roles:
+    - redhat.rhel_system_roles.timesync
+    - redhat.rhel_system_roles.selinux
+    - webserver

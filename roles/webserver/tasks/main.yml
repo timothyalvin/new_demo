@@ -1,0 +1,12 @@
+---
+# tasks file for webserver
+- name: install package
+  ansible.builtin.dnf:
+    name: httpd
+    state: installed
+
+- name: start service
+  ansible.builtin.service:
+    name: httpd
+    state: started
+    enabled: true
